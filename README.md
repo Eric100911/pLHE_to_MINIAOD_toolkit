@@ -276,10 +276,6 @@ For the `GEN-SIM ` and `DIGI-L1T-HLT` steps, we prefer conducting them only at `
 
 ## Managing Intermediary Files
 
-
-
-### 18 May. 2025
-
 The intermidiary files can only be manually removed.
 
 Previously, we have generated `/JpsiJpsiY1S_TPS_to_6Mu_13p6TeV_HELAC_Onia2_TuneCP5_pythia8/chiw-crab3_JJY1S_TPS_6Mu_13p6TeV_TuneCP5_pythia8_Run3Summer22_GENSIM-b97cb38d4172304bce7c88d7a279c79c/USER`, which was only a short test. To remove it, well...
@@ -308,7 +304,7 @@ cat tmp_GS_to_rm.txt | xargs -I {} xrdfs xrootd-cms.infn.it rm "{}"
 > The "`xrootd-cms.infn.it`" specification is picked since I am working at Beijing. The workbook[^20] suggests using `cmsxrootd.fnal.gov` for accessing from the US and `cms-xrd-global.cern.ch` as the "global redirector".
 
 
-#### References:
+**References**:
 
 [^1]:  `cmsDriver.py` hands-on guide from the 17th (?) CMS Induction Event (Feb. 2025, @ CERN), by Phat Srimanobhas (for `cmsDriver.py` general config and `PreMix` configuration.): https://phat-srimanobhas.gitbook.io/cmsinductionwinter2025-cmssw/cmssw-101/cmsdriver
 
