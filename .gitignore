@@ -1,0 +1,6 @@
+*-pre*
+*.root
+*.lhe
+__pycache__
+crab_*
+*.log
