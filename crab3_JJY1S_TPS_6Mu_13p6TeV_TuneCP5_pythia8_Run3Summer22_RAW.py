@@ -18,11 +18,11 @@ config.JobType.outputFiles = ['JJY1S_TPS_6Mu_13p6TeV_TuneCP5_pythia8_Run3Summer2
 config.section_('Data')
 config.Data.inputDataset = '/QCD-TPS-JPsiJPsiUpsilon1Sto6Mu_TuneCP5_13p6TeV_helaconia2-pythia8/chiw-crab3_JJY1S_TPS_6Mu_13p6TeV_TuneCP5_pythia8_Run3Summer22_GENSIM-b97cb38d4172304bce7c88d7a279c79c/USER'
 config.Data.inputDBS = 'phys03'
-config.Data.splitting = 'EventAwareLumiBased'
-config.Data.unitsPerJob = 500
+config.Data.splitting = 'FileBased'
+config.Data.unitsPerJob = 1
 config.Data.publication = True
 config.Data.outLFNDirBase = '/store/user/chiw/MC_JJY1S_TPS_2022/'  # Change here with your lxplus name
-config.Data.outputDatasetTag = 'crab3_Run3Summer22_124X_mcRun3_2022_realistic_v12_RAW' # Change here with your lxplus name
+config.Data.outputDatasetTag = 'crab3_Run3Summer22_124X_mcRun3_2022_realistic_v12_RAWSIM' # Change here with your lxplus name
 
 config.section_('User')
 config.section_('Site')
